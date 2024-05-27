@@ -1,0 +1,145 @@
+/*FONDO*/
+html {
+    background-color: #001316;
+}
+
+.cont {
+    background-color: #001316;
+
+}
+
+@font-face {
+    font-family: "Summer";
+    src: url(https://s3-us-west-2.amazonaws.com/s.cdpn.io/162656/Summer%20Font%20Regular.woff);
+}
+
+.fondo {
+    background-color: transparent;
+    border: none;
+}
+
+.fondo-body {
+    margin-top: 25px;
+    background-color: rgba(240, 248, 255, 0);
+    width: 80%;
+    border-radius: 5px;
+}
+/*CONTAINER*/
+.container-card {
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+
+}
+
+/*input donde se agrega la tarea*/
+.color-input::placeholder {
+    color: #fffcf78a;
+    font-family: "Summer";
+    font-size: 25px;
+
+}
+
+/*TAREA CREADA*/
+p {
+    color: #FFFCF7;
+    font-family: "Summer";
+    font-size: 28px;
+    font-weight: 600;
+    font-style: normal;
+}
+
+/*INPUT TAREA A ESCRIBIR*/
+.color-input {
+    background-color: #0f2c387f;
+    border: 0.5px solid;
+    border-radius: 25px;
+    font-family: "Summer";
+    font-size: 28px;
+    font-weight: 600;
+    font-style: normal;
+    outline: none;
+
+}
+
+.color-input:focus {
+    background-color: transparent;
+    color: #FFFCF7;
+    outline: none;
+
+}
+
+/*TITULO *TO DO LIST* */
+h1 {
+    font-family: "Summer";
+    font-weight: 600;
+    font-style: normal;
+    color: #FFFCF7;
+    font-size: 100px;
+
+
+}
+
+/*BOTON AGREGAR*/
+.color-button {
+    background-color: #0D3141;
+    color: #FFFCF7;
+    border-radius: 25px;
+    font-size: 35px;
+    width: 450px;
+    border: none;
+    outline: none;
+   
+    font-family: "Summer";
+}
+
+    /*evento click */
+.clickCheck {
+    background-color: transparent;
+    border: 1px solid #0D3141;
+    color: #FFFCF7;
+    border-radius: 25px;
+}
+
+
+.check-input {
+    background-color: #0D3141;
+    border: none;
+    border-radius: 25px;
+    color: #FFFCF7;
+
+}
+
+.check-input_focus {
+    background-color: #FFFCF7;
+    color: #001316;
+}
+
+.parrafo-tarea{
+    width: 300px;
+    overflow-x: hidden;
+}
+/* Boton eliminar*/
+.color-boton__eliminar {
+    background-color: #FFFCF7;
+    border: none;
+    border-radius: 20px;
+}
+
+.color-button__delete {
+    background-color: #0D3141;
+    color: #FFFCF7;
+
+}
+
+.color-boton__eliminar:focus {
+    background-color: #0D3141;
+}
+
+/* Contenedor tarea cuando se selecciona*/
+.container-padre__input {
+    justify-content: space-evenly;
+    align-items: center;
+    width: 90%;
+}
